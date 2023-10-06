@@ -8,9 +8,14 @@ resources:
 
 components:
   - ../../components/annotation-resource-tracking
+  - ../../components/gitops-admins
   - ../../components/edge-termination
   - ../../components/enable-notifications
-  - ../../components/gitops-admins
   - ../../components/health-check-olm
   - ../../components/health-check-openshift-builds
-
+  - ../../components/kustomize-build-enable-helm
+  - ../../components/health-check-odf  
+  - ../../components/application-controller-cluster-admin
+  
+patches:
+- path: gitops-admins-group.yaml
