@@ -1,0 +1,21 @@
+
+== operator install
+
+[code]
+----
+kustomize build . | oc apply -f -
+----
+
+
+== check operator install
+
+
+[code]
+----
+oc get tektonconfig config
+----
+
+[code]
+----
+oc get tektonpipeline,tektontrigger,tektonchain,tektonaddon,pac
+----

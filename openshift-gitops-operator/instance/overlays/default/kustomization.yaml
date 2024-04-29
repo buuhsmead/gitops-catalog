@@ -7,15 +7,15 @@ resources:
   - ../../base
 
 components:
-  - ../../components/annotation-resource-tracking
+#  - ../../components/annotation-resource-tracking
   - ../../components/gitops-admins
-  - ../../components/edge-termination
-  - ../../components/enable-notifications
-  - ../../components/health-check-olm
-  - ../../components/health-check-openshift-builds
-  - ../../components/kustomize-build-enable-helm
-  - ../../components/health-check-odf  
-  - ../../components/application-controller-cluster-admin
-  
+#  - ../../components/edge-termination
+#  - ../../components/enable-notifications
+#  - ../../components/health-check-olm
+#  - ../../components/health-check-openshift-builds
+#  - ../../components/kustomize-build-enable-helm
+#  - ../../components/health-check-odf
+#  - ../../components/application-controller-cluster-admin
+
 patches:
 - path: gitops-admins-group.yaml

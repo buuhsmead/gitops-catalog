@@ -5,8 +5,8 @@ resources:
   - ../../base
 
 patches:
-  - target:
+  - path: patch-channel.yaml
+    target:
       kind: Subscription
-      name: openshift-gitops-operator
-    path: patch-channel.yaml.yaml
-
+      name: openshift-pipelines-operator
+      namespace: openshift-operators

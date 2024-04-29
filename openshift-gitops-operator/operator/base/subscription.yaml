@@ -12,5 +12,4 @@ spec:
   config:
     env:
     - name: DISABLE_DEFAULT_ARGOCD_CONSOLELINK
-      value: 'false'
-
+      value: 'true'
