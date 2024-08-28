@@ -3,5 +3,5 @@ apiVersion: user.openshift.io/v1
 metadata:
   name: gitops-admins
 users:
-  - admin-admin
+  - kubeadmin
 
