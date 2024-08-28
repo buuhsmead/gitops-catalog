@@ -18,4 +18,4 @@ components:
   - ../../components/application-controller-cluster-admin
 ```
 
-Note: This component will only function with the default `openshift-gitops` instance of ArgoCD and cannot be applied to namespace scoped instances of ArgoCD outside of the primary instance.
+Note: This component will only function with the default `openshift-gitops` instance of ArgoCD and cannot be applied to namespace scoped instances of ArgoCD outside the primary instance.
